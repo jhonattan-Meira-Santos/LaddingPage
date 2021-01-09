@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    position:relative;
+    top: 70px;
+    background: #f5f6fa;
+}
+header{
+    background: #222f3e;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+nav {
+    background: #576574;
+    position: fixed;
+    top:58px;
+    left:0;
+    right: 0;
+    outline: 1px;
+}
+a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #f6e58d;
+}
+#github{
+    color:#130f40;
+    font-size: 17px;
+}
+h1{
+    color: white;
+}
+h2,h3,h4{
+    font-size: 35px;
+    text-align: center;
+}
+
+span p{
+    font-size: 15px;
+    color: white;
+    text-align: right;
+    margin-left: 200px; 
+    position: relative;
+    top: 20px;
+    left: 100%;
+}
+p{
+    font-size: 20px;
+}
+.box{
+    padding:40px;
+    width: 100%;
+    background: 191919;
+    margin: 0;
+    padding: 13px 10px;
+    position: absolute;
+    text-align: center;
+   
+}
+.box input[type='email'],.box input[type='password'],.box input[type='text']{
+    border: 0;
+    width: 30%;
+    display: block;
+    box-shadow: 5px 3px 7px #353b48 ;
+    padding: 15px 10px;
+    border-radius: 24px;
+    border: #2f3640 2px solid;
+    background: none;
+    color: black;
+    margin: 20px auto;
+    outline: none;
+    text-align: center;
+    transition: 0.25s;
+}
+.box input[type='email']:focus,.box input[type='password']:focus,.box input[type='text']:focus{
+    border-color: #4cd137;
+    width: 50%;
+    box-shadow: 7px 5px 8px;
+}
+.box input[type='submit']{
+    border: 0;
+    margin:auto;
+    display: block;
+    border-radius: 30%;
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    background: #c23616;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+}
